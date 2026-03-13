@@ -12,6 +12,9 @@ public interface DeptMapper {
     @Select("select * from dept")
     List<Dept> findAll();
 
+    @Select("select count(*) from emp where dept_id = #{id}")
+    Integer countEmp(Integer id);
+
     @Delete("delete from dept where id = #{id}")
     void deleteById(int id);
 

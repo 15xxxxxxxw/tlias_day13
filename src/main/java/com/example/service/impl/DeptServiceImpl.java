@@ -6,6 +6,7 @@ import com.example.pojo.Result;
 import com.example.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -19,8 +20,12 @@ public class DeptServiceImpl implements DeptService {
         return deptMapper.findAll();
     }
 
+    @Transactional
     @Override
     public void deleteById(Integer id) {
+        if(deptMapper.countEmp(id) > 0){
+            throw new RuntimeException("对不起，该部门下还有员工，不能直接删除");
+        }
         deptMapper.deleteById(id);
     }
 

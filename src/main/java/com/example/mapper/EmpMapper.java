@@ -2,12 +2,10 @@ package com.example.mapper;
 
 import com.example.pojo.Emp;
 import com.example.pojo.EmpQueryParam;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Options;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 
 import java.util.List;
+import java.util.Map;
 
 @Mapper
 public interface EmpMapper {
@@ -16,9 +14,24 @@ public interface EmpMapper {
     @Insert("insert into emp(username, name, gender, phone, job, salary, image, entry_date, dept_id, create_time, update_time) " +
             "values (#{username},#{name},#{gender},#{phone},#{job},#{salary},#{image},#{entryDate},#{deptId},#{createTime},#{updateTime})")
     void insert(Emp emp);
-@Select("select * from emp where id = #{id}")
+
     Emp getById(Integer id);
 
 
     void updateInfo(Emp emp);
+
+    void deleteByIds(List<Integer> ids);
+
+    /**
+     * 统计各个职位的员工人数
+     */
+    @MapKey("pos")//指定返回的 Map 的 key 对应数据库中的哪个字段。
+    List<Map<String,Object>> countEmpJobData();
+    @MapKey("name")
+    List<Map> countEmpGenderData();
+    @Select("select * from emp where job = 1")
+    List<Emp> emplist();
+
+    @Select("select * from emp where username = #{username} and password = #{password}")
+    Emp getUsernameAndPassword(Emp emp);
 }

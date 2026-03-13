@@ -2,11 +2,9 @@ package com.example.service.impl;
 
 import com.example.mapper.EmpExprMapper;
 import com.example.mapper.EmpMapper;
-import com.example.pojo.Emp;
-import com.example.pojo.EmpExpr;
-import com.example.pojo.EmpQueryParam;
-import com.example.pojo.PageResult;
+import com.example.pojo.*;
 import com.example.service.EmpService;
+import com.example.utils.JwtUtils;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +14,9 @@ import org.springframework.util.CollectionUtils;
 
 import java.time.LocalDateTime;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Service
 public class EmpServiceImpl implements EmpService {
@@ -51,8 +51,6 @@ public class EmpServiceImpl implements EmpService {
             //这样emp表（主键id）就可以和empExpr表（主键id，外键empid）关联起来
             empExprMapper.insertBatch(exprlist);//批量加入
         }
-
-
     }
 
     @Override
@@ -64,6 +62,38 @@ public class EmpServiceImpl implements EmpService {
     public void updateInfo(Emp emp) {
         emp.setUpdateTime(LocalDateTime.now());
         empMapper.updateInfo(emp);
+    }
+
+    @Transactional
+    @Override
+    public void deleteByIds(List<Integer> ids) {
+        //1. 根据ID批量删除员工基本信息
+        empMapper.deleteByIds(ids);
+        //2. 根据员工的ID批量删除员工的工作经历信息
+        empExprMapper.deleteByEmpIds(ids);
+    }
+
+    @Override
+    public List<Emp> list() {
+        List<Emp> emplist = empMapper.emplist();
+        return emplist;
+    }
+
+    @Override
+    public LoginInfo login(Emp emp) {
+        Emp empLogin = empMapper.getUsernameAndPassword(emp);
+        if(empLogin != null){
+            //生成jwt
+            Map<String,Object> dataMap = new HashMap<>();
+            dataMap.put("id",empLogin.getId());
+            dataMap.put("username",empLogin.getUsername());
+
+            String jwt = JwtUtils.generateJwt(dataMap);
+
+            LoginInfo loginInfo = new LoginInfo(empLogin.getId(), empLogin.getUsername(), empLogin.getName(), jwt);
+            return loginInfo;
+        }
+        return null;
     }
 
 }

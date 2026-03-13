@@ -19,4 +19,11 @@ open：指定遍历开始时的前缀。
 close：指定遍历结束时的后缀。
 index：指定遍历过程中每个元素的索引变量名。
 -->
+    <!--删除员工经历-->
+    <delete id="deleteByEmpIds">
+        delete from emp_expr where emp_id in
+        <foreach collection="empIds" item="empId" open="(" close=")" separator=",">
+            #{empId}
+        </foreach>
+    </delete>
 </mapper>
