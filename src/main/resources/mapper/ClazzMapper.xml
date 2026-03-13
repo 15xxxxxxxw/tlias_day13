@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.ClazzMapper">
+    <!--列表显示所有信息-->
+    <select id="list" resultType="com.example.pojo.Clazz">
+        select
+            c.id,
+            c.name,
+            c.room,
+            c.begin_date as beginDate,
+            c.end_date as endDate,
+            c.master_id as masterId,
+            e.name as masterName,
+            c.create_time as createTime,
+            c.update_time as updateTime,
+            case
+                when curdate() <![CDATA[<=]]> c.begin_date then '未开班'
+                when curdate() <![CDATA[>=]]>  c.end_date then '已结课'
+                else '已开班'
+            end as status
+            from clazz c
+            left join emp e on c.master_id = e.id
+        <where>
+            <if test="name != null and name != ''">
+                and c.name like concat('%', #{name}, '%')
+            </if>
+
+            <!-- 与查询区间有交集 -->
+            <if test="begin != null">
+                and c.end_date <![CDATA[>=]]> #{begin}
+            </if>
+
+            <if test="end != null">
+                and c.begin_date <![CDATA[<=]]> #{end}
+            </if>
+        </where>
+
+        order by c.update_time desc
+    </select>
+
+    <!--回显信息-->
+    <select id="getById" resultType="com.example.pojo.Clazz">
+        select
+            c.id,
+            c.name,
+            c.room,
+            c.begin_date as beginDate,
+            c.end_date as endDate,
+            c.master_id as masterId,
+            e.name as masterName,
+            c.subject,
+            c.create_time as createTime,
+            c.update_time as updateTime
+        from clazz c left join emp e on c.master_id = e.id
+        where c.id = #{id}
+
+    </select>
+
+    <!--更新班级信息-->
+    <update id="modifyClazz">
+        update clazz
+        <set>
+            <if test="name != null and name != '' ">name = #{name},</if>
+            <if test="room != null and room != '' ">room = #{room},</if>
+            <if test="beginDate != null">begin_date = #{beginDate},</if>
+            <if test="endDate != null">end_date = #{endDate},</if>
+            <if test="masterId != null">master_id = #{masterId},</if>
+            <if test="subject != null">subject = #{subject},</if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--查找班级中学生人数-->
+    <select id="countStu" resultType="java.lang.Integer">
+        select count(*) from student where clazz_id = #{id};
+    </select>
+
+    <!--删除班级-->
+    <delete id="deleteClazz">
+        delete from clazz where id = #{id};
+    </delete>
+</mapper>

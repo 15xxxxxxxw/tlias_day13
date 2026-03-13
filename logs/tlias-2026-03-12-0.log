@@ -1,0 +1,656 @@
+2026-03-12 10:51:49.383 [main] INFO  com.example.ManagementApplication - Starting ManagementApplication using Java 22.0.1 with PID 11508 (E:\java\java0\Management\target\classes\production\Management started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 10:51:49.387 [main] INFO  com.example.ManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 10:51:50.591 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-12 10:51:50.611 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-12 10:51:50.612 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-12 10:51:50.614 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-12 10:51:50.747 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1314 ms
+2026-03-12 10:51:51.256 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 10:51:51.584 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-12 10:51:51.612 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-12 10:51:51.616 [main] INFO  com.example.ManagementApplication - Started ManagementApplication in 3.505 seconds (process running for 5.061)
+2026-03-12 10:53:04.331 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-12 10:53:04.333 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-12 10:53:04.345 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2026-03-12 10:53:04.409 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询部门列表
+2026-03-12 10:53:04.449 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-12 10:53:04.755 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b238bd9
+2026-03-12 10:53:04.758 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-12 10:53:36.968 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-12 10:53:36.999 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-12 10:53:37.007 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-12 10:53:37.027 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-12 10:54:56.755 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.management.ManagementApplicationTests]: ManagementApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-12 10:54:56.901 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.ManagementApplication for test class com.example.management.ManagementApplicationTests
+2026-03-12 10:54:57.705 [main] INFO  com.example.management.ManagementApplicationTests - Starting ManagementApplicationTests using Java 22.0.1 with PID 10720 (started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 10:54:57.708 [main] INFO  com.example.management.ManagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 10:54:59.555 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 10:55:00.139 [main] INFO  com.example.management.ManagementApplicationTests - Started ManagementApplicationTests in 2.991 seconds (process running for 5.417)
+2026-03-12 13:40:16.155 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.management.ManagementApplicationTests]: ManagementApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-12 13:40:16.301 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.ManagementApplication for test class com.example.management.ManagementApplicationTests
+2026-03-12 13:40:16.991 [main] INFO  com.example.management.ManagementApplicationTests - Starting ManagementApplicationTests using Java 22.0.1 with PID 23952 (started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 13:40:16.992 [main] INFO  com.example.management.ManagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 13:40:18.845 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 13:40:19.325 [main] INFO  com.example.management.ManagementApplicationTests - Started ManagementApplicationTests in 2.783 seconds (process running for 5.164)
+2026-03-12 13:40:28.833 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.management.ManagementApplicationTests]: ManagementApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-12 13:40:28.970 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.ManagementApplication for test class com.example.management.ManagementApplicationTests
+2026-03-12 13:40:29.669 [main] INFO  com.example.management.ManagementApplicationTests - Starting ManagementApplicationTests using Java 22.0.1 with PID 9764 (started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 13:40:29.670 [main] INFO  com.example.management.ManagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 13:40:31.271 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 13:40:31.749 [main] INFO  com.example.management.ManagementApplicationTests - Started ManagementApplicationTests in 2.547 seconds (process running for 4.69)
+2026-03-12 13:41:32.006 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.management.ManagementApplicationTests]: ManagementApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-12 13:41:32.144 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.ManagementApplication for test class com.example.management.ManagementApplicationTests
+2026-03-12 13:41:32.839 [main] INFO  com.example.management.ManagementApplicationTests - Starting ManagementApplicationTests using Java 22.0.1 with PID 20588 (started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 13:41:32.841 [main] INFO  com.example.management.ManagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 13:41:34.508 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 13:41:35.001 [main] INFO  com.example.management.ManagementApplicationTests - Started ManagementApplicationTests in 2.63 seconds (process running for 4.73)
+2026-03-12 13:47:06.358 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.management.ManagementApplicationTests]: ManagementApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-12 13:47:06.493 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.ManagementApplication for test class com.example.management.ManagementApplicationTests
+2026-03-12 13:47:07.167 [main] INFO  com.example.management.ManagementApplicationTests - Starting ManagementApplicationTests using Java 22.0.1 with PID 16060 (started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 13:47:07.168 [main] INFO  com.example.management.ManagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 13:47:08.787 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 13:47:09.232 [main] INFO  com.example.management.ManagementApplicationTests - Started ManagementApplicationTests in 2.514 seconds (process running for 4.582)
+2026-03-12 13:48:07.946 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.management.ManagementApplicationTests]: ManagementApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-12 13:48:08.098 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.ManagementApplication for test class com.example.management.ManagementApplicationTests
+2026-03-12 13:48:08.798 [main] INFO  com.example.management.ManagementApplicationTests - Starting ManagementApplicationTests using Java 22.0.1 with PID 8080 (started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 13:48:08.798 [main] INFO  com.example.management.ManagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 13:48:10.450 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 13:48:10.928 [main] INFO  com.example.management.ManagementApplicationTests - Started ManagementApplicationTests in 2.591 seconds (process running for 4.83)
+2026-03-12 13:48:59.673 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.management.ManagementApplicationTests]: ManagementApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-12 13:48:59.817 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.ManagementApplication for test class com.example.management.ManagementApplicationTests
+2026-03-12 13:49:00.529 [main] INFO  com.example.management.ManagementApplicationTests - Starting ManagementApplicationTests using Java 22.0.1 with PID 23996 (started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 13:49:00.529 [main] INFO  com.example.management.ManagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 13:49:02.256 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 13:49:02.759 [main] INFO  com.example.management.ManagementApplicationTests - Started ManagementApplicationTests in 2.691 seconds (process running for 4.794)
+2026-03-12 13:49:58.378 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.management.ManagementApplicationTests]: ManagementApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-12 13:49:58.514 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.ManagementApplication for test class com.example.management.ManagementApplicationTests
+2026-03-12 13:49:59.213 [main] INFO  com.example.management.ManagementApplicationTests - Starting ManagementApplicationTests using Java 22.0.1 with PID 24248 (started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 13:49:59.214 [main] INFO  com.example.management.ManagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 13:50:00.882 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 13:50:01.358 [main] INFO  com.example.management.ManagementApplicationTests - Started ManagementApplicationTests in 2.613 seconds (process running for 4.701)
+2026-03-12 13:50:08.413 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.management.ManagementApplicationTests]: ManagementApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-12 13:50:08.554 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.ManagementApplication for test class com.example.management.ManagementApplicationTests
+2026-03-12 13:50:09.244 [main] INFO  com.example.management.ManagementApplicationTests - Starting ManagementApplicationTests using Java 22.0.1 with PID 3672 (started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 13:50:09.244 [main] INFO  com.example.management.ManagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 13:50:10.877 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 13:50:11.386 [main] INFO  com.example.management.ManagementApplicationTests - Started ManagementApplicationTests in 2.606 seconds (process running for 4.79)
+2026-03-12 13:50:39.198 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.management.ManagementApplicationTests]: ManagementApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-12 13:50:39.358 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.ManagementApplication for test class com.example.management.ManagementApplicationTests
+2026-03-12 13:50:40.168 [main] INFO  com.example.management.ManagementApplicationTests - Starting ManagementApplicationTests using Java 22.0.1 with PID 26468 (started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 13:50:40.169 [main] INFO  com.example.management.ManagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 13:50:42.294 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 13:50:43.055 [main] INFO  com.example.management.ManagementApplicationTests - Started ManagementApplicationTests in 3.443 seconds (process running for 5.687)
+2026-03-12 13:50:53.195 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.management.ManagementApplicationTests]: ManagementApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-12 13:50:53.341 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.ManagementApplication for test class com.example.management.ManagementApplicationTests
+2026-03-12 13:50:54.046 [main] INFO  com.example.management.ManagementApplicationTests - Starting ManagementApplicationTests using Java 22.0.1 with PID 3184 (started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 13:50:54.047 [main] INFO  com.example.management.ManagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 13:50:56.253 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 13:50:56.759 [main] INFO  com.example.management.ManagementApplicationTests - Started ManagementApplicationTests in 3.178 seconds (process running for 5.423)
+2026-03-12 13:51:13.957 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.management.ManagementApplicationTests]: ManagementApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-12 13:51:14.102 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.ManagementApplication for test class com.example.management.ManagementApplicationTests
+2026-03-12 13:51:14.850 [main] INFO  com.example.management.ManagementApplicationTests - Starting ManagementApplicationTests using Java 22.0.1 with PID 20200 (started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 13:51:14.852 [main] INFO  com.example.management.ManagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 13:51:16.650 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 13:51:17.193 [main] INFO  com.example.management.ManagementApplicationTests - Started ManagementApplicationTests in 2.831 seconds (process running for 5.28)
+2026-03-12 15:44:58.618 [main] INFO  com.example.ManagementApplication - Starting ManagementApplication using Java 22.0.1 with PID 22704 (E:\java\java0\Management\target\classes\production\Management started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 15:44:58.623 [main] INFO  com.example.ManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 15:45:00.157 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-12 15:45:00.176 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-12 15:45:00.178 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-12 15:45:00.178 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-12 15:45:00.308 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1621 ms
+2026-03-12 15:45:00.866 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 15:45:01.268 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-12 15:45:01.295 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-12 15:45:01.300 [main] INFO  com.example.ManagementApplication - Started ManagementApplication in 4.352 seconds (process running for 5.809)
+2026-03-12 15:45:16.755 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-12 15:45:16.755 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-12 15:45:16.755 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-03-12 15:45:16.792 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询部门列表
+2026-03-12 15:45:16.819 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-12 15:45:17.024 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4aec902e
+2026-03-12 15:45:17.028 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-12 16:02:02.259 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-12 16:02:02.289 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-12 16:02:02.299 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-12 16:02:02.323 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-12 16:02:10.029 [main] INFO  com.example.ManagementApplication - Starting ManagementApplication using Java 22.0.1 with PID 19592 (E:\java\java0\Management\target\classes\production\Management started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 16:02:10.033 [main] INFO  com.example.ManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 16:02:11.282 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-12 16:02:11.298 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-12 16:02:11.300 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-12 16:02:11.300 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-12 16:02:11.431 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1346 ms
+2026-03-12 16:02:11.917 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 16:02:12.243 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-12 16:02:12.272 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-12 16:02:12.275 [main] INFO  com.example.ManagementApplication - Started ManagementApplication in 3.519 seconds (process running for 4.738)
+2026-03-12 16:03:49.331 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-12 16:03:49.331 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-12 16:03:49.331 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-03-12 16:03:49.368 [http-nio-8080-exec-2] INFO  com.example.controller.EmpController - 查询所有员工
+2026-03-12 16:03:49.399 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzController - 查询请求参数：ClazzQueryParam(page=1, pageSize=10, name=, begin=null, end=null)
+2026-03-12 16:03:49.403 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-12 16:03:49.633 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1092cc3a
+2026-03-12 16:03:49.635 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-12 16:06:10.347 [http-nio-8080-exec-4] INFO  com.example.controller.StudentController - 查询请求参数：StuQueryParam(page=1, pageSize=10, name=, degree=null, clazzId=null)
+2026-03-12 16:06:16.731 [http-nio-8080-exec-6] INFO  com.example.controller.ReportController - 统计员工性别
+2026-03-12 16:06:16.731 [http-nio-8080-exec-5] INFO  com.example.controller.ReportController - 统计各个职位的员工人数
+2026-03-12 16:06:20.985 [http-nio-8080-exec-7] INFO  com.example.controller.ReportController - 统计学生学历
+2026-03-12 16:06:20.985 [http-nio-8080-exec-10] INFO  com.example.controller.ReportController - 统计各个班级人数
+2026-03-12 16:06:28.608 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询部门列表
+2026-03-12 16:06:28.612 [http-nio-8080-exec-8] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-12 16:10:51.035 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-12 16:10:51.071 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-12 16:10:51.086 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-12 16:10:51.122 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-12 16:10:59.396 [main] INFO  com.example.ManagementApplication - Starting ManagementApplication using Java 22.0.1 with PID 21264 (E:\java\java0\Management\target\classes\production\Management started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 16:10:59.400 [main] INFO  com.example.ManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 16:11:00.850 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-12 16:11:00.867 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-12 16:11:00.869 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-12 16:11:00.869 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-12 16:11:00.987 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1529 ms
+2026-03-12 16:11:01.491 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 16:11:01.872 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-12 16:11:01.900 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-12 16:11:01.906 [main] INFO  com.example.ManagementApplication - Started ManagementApplication in 3.849 seconds (process running for 5.314)
+2026-03-12 16:11:05.368 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-12 16:11:05.368 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-12 16:11:05.369 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-03-12 16:12:57.342 [http-nio-8080-exec-5] INFO  com.example.controller.LoginController - 员工来登录啦 , Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-03-12 16:12:57.386 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-12 16:12:57.602 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3fb31eb5
+2026-03-12 16:12:57.606 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-12 16:13:31.400 [http-nio-8080-exec-6] INFO  com.example.controller.LoginController - 员工来登录啦 , Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-03-12 16:15:38.775 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-12 16:15:38.807 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-12 16:15:38.818 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-12 16:15:38.843 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-12 16:15:46.046 [main] INFO  com.example.ManagementApplication - Starting ManagementApplication using Java 22.0.1 with PID 21624 (E:\java\java0\Management\target\classes\production\Management started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 16:15:46.049 [main] INFO  com.example.ManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 16:15:47.290 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-12 16:15:47.311 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-12 16:15:47.315 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-12 16:15:47.315 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-12 16:15:47.501 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1407 ms
+2026-03-12 16:15:48.053 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 16:15:48.449 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-12 16:15:48.480 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-12 16:15:48.487 [main] INFO  com.example.ManagementApplication - Started ManagementApplication in 3.841 seconds (process running for 5.017)
+2026-03-12 16:15:59.352 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-12 16:15:59.352 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-12 16:15:59.353 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-03-12 16:15:59.532 [http-nio-8080-exec-3] INFO  com.example.controller.LoginController - 员工来登录啦 , Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-03-12 16:15:59.573 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-12 16:15:59.806 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50b93477
+2026-03-12 16:15:59.809 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-12 16:17:08.531 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-12 16:17:08.553 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-12 16:17:08.560 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-12 16:17:08.577 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-12 16:17:31.586 [main] INFO  com.example.ManagementApplication - Starting ManagementApplication using Java 22.0.1 with PID 4772 (E:\java\java0\Management\target\classes\production\Management started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 16:17:31.601 [main] INFO  com.example.ManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 16:17:32.699 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-12 16:17:32.712 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-12 16:17:32.716 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-12 16:17:32.716 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-12 16:17:32.841 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1197 ms
+2026-03-12 16:17:33.269 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 16:17:33.585 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-12 16:17:33.610 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-12 16:17:33.615 [main] INFO  com.example.ManagementApplication - Started ManagementApplication in 3.132 seconds (process running for 4.222)
+2026-03-12 16:17:49.220 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-12 16:17:49.222 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-12 16:17:49.224 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-03-12 16:18:09.405 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-12 16:18:09.441 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-12 16:18:28.391 [main] INFO  com.example.ManagementApplication - Starting ManagementApplication using Java 22.0.1 with PID 7040 (E:\java\java0\Management\target\classes\production\Management started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 16:18:28.395 [main] INFO  com.example.ManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 16:18:29.583 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-12 16:18:29.597 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-12 16:18:29.598 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-12 16:18:29.598 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-12 16:18:29.720 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1276 ms
+2026-03-12 16:18:30.167 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 16:18:30.491 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-12 16:18:30.516 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-12 16:18:30.520 [main] INFO  com.example.ManagementApplication - Started ManagementApplication in 3.064 seconds (process running for 4.284)
+2026-03-12 16:20:28.448 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-12 16:20:28.470 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-12 16:37:58.775 [main] INFO  com.example.ManagementApplication - Starting ManagementApplication using Java 22.0.1 with PID 19476 (E:\java\java0\Management\target\classes\production\Management started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 16:37:58.777 [main] INFO  com.example.ManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 16:37:59.966 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-12 16:37:59.980 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-12 16:37:59.981 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-12 16:37:59.983 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-12 16:38:00.089 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1264 ms
+2026-03-12 16:38:00.522 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 16:38:00.843 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-12 16:38:00.867 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-12 16:38:00.872 [main] INFO  com.example.ManagementApplication - Started ManagementApplication in 3.623 seconds (process running for 4.831)
+2026-03-12 16:38:06.374 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-12 16:38:06.374 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-12 16:38:06.376 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-03-12 16:38:06.404 [http-nio-8080-exec-1] INFO  com.example.interceptor.LoginInterceptor - 获取到jwt令牌为空, 返回错误结果
+2026-03-12 16:38:06.404 [http-nio-8080-exec-4] INFO  com.example.interceptor.LoginInterceptor - 获取到jwt令牌为空, 返回错误结果
+2026-03-12 16:38:19.799 [http-nio-8080-exec-3] INFO  com.example.controller.LoginController - 员工来登录啦 , Emp(id=null, username=songjiang, password=, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-03-12 16:38:19.833 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-12 16:38:20.056 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70d6c580
+2026-03-12 16:38:20.059 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-12 16:38:23.691 [http-nio-8080-exec-2] INFO  com.example.controller.LoginController - 员工来登录啦 , Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-03-12 16:38:54.825 [http-nio-8080-exec-9] INFO  com.example.interceptor.LoginInterceptor - 获取到jwt令牌为空, 返回错误结果
+2026-03-12 16:39:59.103 [http-nio-8080-exec-6] INFO  com.example.controller.LoginController - 员工来登录啦 , Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-03-12 16:40:00.875 [http-nio-8080-exec-7] INFO  com.example.interceptor.LoginInterceptor - 获取到jwt令牌为空, 返回错误结果
+2026-03-12 16:48:53.338 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-12 16:48:53.368 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-12 16:48:53.379 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-12 16:48:53.405 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-12 16:49:01.172 [main] INFO  com.example.ManagementApplication - Starting ManagementApplication using Java 22.0.1 with PID 21744 (E:\java\java0\Management\target\classes\production\Management started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 16:49:01.177 [main] INFO  com.example.ManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 16:49:02.453 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-12 16:49:02.469 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-12 16:49:02.471 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-12 16:49:02.471 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-12 16:49:02.602 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1378 ms
+2026-03-12 16:49:03.110 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 16:49:03.495 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-12 16:49:03.522 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-12 16:49:03.528 [main] INFO  com.example.ManagementApplication - Started ManagementApplication in 3.832 seconds (process running for 4.947)
+2026-03-12 16:49:19.907 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-12 16:49:19.907 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-12 16:49:19.912 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-03-12 16:49:20.069 [http-nio-8080-exec-1] INFO  com.example.controller.LoginController - 员工来登录啦 , Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-03-12 16:49:20.104 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-12 16:49:20.312 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d883d7a
+2026-03-12 16:49:20.315 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-12 16:49:26.951 [http-nio-8080-exec-3] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 16:49:26.951 [http-nio-8080-exec-2] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 16:49:26.952 [http-nio-8080-exec-3] INFO  com.example.controller.EmpController - 查询所有员工
+2026-03-12 16:49:26.966 [http-nio-8080-exec-2] INFO  com.example.controller.ClazzController - 查询请求参数：ClazzQueryParam(page=1, pageSize=10, name=, begin=null, end=null)
+2026-03-12 16:49:28.144 [http-nio-8080-exec-5] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 16:49:28.144 [http-nio-8080-exec-6] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 16:49:28.145 [http-nio-8080-exec-6] INFO  com.example.controller.StudentController - 查询请求参数：StuQueryParam(page=1, pageSize=10, name=, degree=null, clazzId=null)
+2026-03-12 16:49:29.212 [http-nio-8080-exec-4] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 16:49:29.214 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询部门列表
+2026-03-12 16:49:29.801 [http-nio-8080-exec-7] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 16:49:29.801 [http-nio-8080-exec-8] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 16:49:29.801 [http-nio-8080-exec-7] INFO  com.example.controller.DeptController - 查询部门列表
+2026-03-12 16:49:29.805 [http-nio-8080-exec-8] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-12 16:49:42.604 [http-nio-8080-exec-9] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 16:49:42.605 [http-nio-8080-exec-9] INFO  com.example.controller.EmpController - 显示员工37的信息
+2026-03-12 16:49:45.779 [http-nio-8080-exec-10] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 16:49:45.799 [http-nio-8080-exec-10] INFO  com.example.controller.EmpController - 修改员工信息,Emp(id=37, username=linpingzhi, password=123456, name=林平之1, gender=1, phone=18809091234, job=1, salary=null, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2022-09-03-07-37-38222.jpg, entryDate=2022-09-18, deptId=1, createTime=2026-01-05T19:15:02, updateTime=2026-01-05T19:15:02, deptName=null, exprList=[])
+2026-03-12 16:49:45.834 [http-nio-8080-exec-1] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 16:49:45.836 [http-nio-8080-exec-1] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-12 16:49:47.505 [http-nio-8080-exec-3] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 16:49:47.505 [http-nio-8080-exec-3] INFO  com.example.controller.EmpController - 显示员工37的信息
+2026-03-12 16:49:49.728 [http-nio-8080-exec-2] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 16:49:49.729 [http-nio-8080-exec-2] INFO  com.example.controller.EmpController - 修改员工信息,Emp(id=37, username=linpingzhi, password=123456, name=林平之, gender=1, phone=18809091234, job=1, salary=null, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2022-09-03-07-37-38222.jpg, entryDate=2022-09-18, deptId=1, createTime=2026-01-05T19:15:02, updateTime=2026-03-12T16:49:45, deptName=null, exprList=[])
+2026-03-12 16:49:49.759 [http-nio-8080-exec-5] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 16:49:49.760 [http-nio-8080-exec-5] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-12 16:49:51.754 [http-nio-8080-exec-4] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 16:49:51.754 [http-nio-8080-exec-6] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 16:49:51.755 [http-nio-8080-exec-6] INFO  com.example.controller.ReportController - 统计各个职位的员工人数
+2026-03-12 16:49:51.755 [http-nio-8080-exec-4] INFO  com.example.controller.ReportController - 统计员工性别
+2026-03-12 16:49:52.464 [http-nio-8080-exec-8] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 16:49:52.464 [http-nio-8080-exec-7] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 16:49:52.464 [http-nio-8080-exec-8] INFO  com.example.controller.ReportController - 统计学生学历
+2026-03-12 16:49:52.464 [http-nio-8080-exec-7] INFO  com.example.controller.ReportController - 统计各个班级人数
+2026-03-12 16:51:49.877 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-12 16:51:49.899 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-12 16:51:49.904 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-12 16:51:49.910 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-12 17:38:22.956 [main] INFO  com.example.ManagementApplication - Starting ManagementApplication using Java 22.0.1 with PID 6620 (E:\java\java0\Management\target\classes\production\Management started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 17:38:22.959 [main] INFO  com.example.ManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 17:38:24.113 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-12 17:38:24.128 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-12 17:38:24.130 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-12 17:38:24.130 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-12 17:38:24.240 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1235 ms
+2026-03-12 17:38:24.675 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 17:38:25.051 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-12 17:38:25.078 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-12 17:38:25.082 [main] INFO  com.example.ManagementApplication - Started ManagementApplication in 3.59 seconds (process running for 4.719)
+2026-03-12 17:38:32.564 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-12 17:38:32.566 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-12 17:38:32.566 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-03-12 17:38:32.896 [http-nio-8080-exec-1] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:38:32.896 [http-nio-8080-exec-2] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:38:32.911 [http-nio-8080-exec-2] INFO  com.example.controller.ReportController - 统计学生学历
+2026-03-12 17:38:32.911 [http-nio-8080-exec-1] INFO  com.example.controller.ReportController - 统计各个班级人数
+2026-03-12 17:38:32.935 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-12 17:38:33.100 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f644f0b
+2026-03-12 17:38:33.102 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-12 17:38:36.793 [http-nio-8080-exec-3] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:38:36.793 [http-nio-8080-exec-4] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:38:36.796 [http-nio-8080-exec-3] INFO  com.example.controller.EmpController - 查询所有员工
+2026-03-12 17:38:36.832 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzController - 查询请求参数：ClazzQueryParam(page=1, pageSize=10, name=, begin=null, end=null)
+2026-03-12 17:38:42.037 [http-nio-8080-exec-5] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:38:42.038 [http-nio-8080-exec-5] INFO  com.example.controller.ClazzController - 根据id:6显示班级信息
+2026-03-12 17:38:49.603 [http-nio-8080-exec-6] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:38:49.653 [http-nio-8080-exec-6] INFO  com.example.controller.ClazzController - 修改班级信息：Clazz(id=6, name=JavaEE就业167期, room=3025, beginDate=2024-11-20, endDate=2024-05-10, masterId=36, subject=1, createTime=2024-11-15T11:35:46, updateTime=2024-12-13T14:31:24, masterName=令狐冲, status=null)
+2026-03-12 17:38:49.675 [http-nio-8080-exec-7] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:38:49.676 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzController - 查询请求参数：ClazzQueryParam(page=1, pageSize=10, name=, begin=null, end=null)
+2026-03-12 17:38:51.793 [http-nio-8080-exec-9] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:38:51.793 [http-nio-8080-exec-8] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:38:51.795 [http-nio-8080-exec-9] INFO  com.example.controller.ReportController - 统计员工性别
+2026-03-12 17:38:51.795 [http-nio-8080-exec-8] INFO  com.example.controller.ReportController - 统计各个职位的员工人数
+2026-03-12 17:38:52.933 [http-nio-8080-exec-2] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:38:52.933 [http-nio-8080-exec-10] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:38:52.933 [http-nio-8080-exec-2] INFO  com.example.controller.ReportController - 统计学生学历
+2026-03-12 17:38:52.933 [http-nio-8080-exec-10] INFO  com.example.controller.ReportController - 统计各个班级人数
+2026-03-12 17:38:56.326 [http-nio-8080-exec-1] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:39:00.136 [http-nio-8080-exec-3] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:41:37.534 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-12 17:41:37.566 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-12 17:41:37.578 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-12 17:41:37.611 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-12 17:41:44.820 [main] INFO  com.example.ManagementApplication - Starting ManagementApplication using Java 22.0.1 with PID 18184 (E:\java\java0\Management\target\classes\production\Management started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 17:41:44.825 [main] INFO  com.example.ManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 17:41:46.013 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-12 17:41:46.028 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-12 17:41:46.030 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-12 17:41:46.032 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-12 17:41:46.139 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1262 ms
+2026-03-12 17:41:46.619 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 17:41:46.990 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-12 17:41:47.016 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-12 17:41:47.020 [main] INFO  com.example.ManagementApplication - Started ManagementApplication in 3.452 seconds (process running for 4.822)
+2026-03-12 17:41:55.270 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-12 17:41:55.270 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-12 17:41:55.272 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-03-12 17:41:55.632 [http-nio-8080-exec-1] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:41:55.632 [http-nio-8080-exec-3] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:41:55.648 [http-nio-8080-exec-3] INFO  com.example.controller.EmpController - 查询所有员工
+2026-03-12 17:41:55.674 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzController - 查询请求参数：ClazzQueryParam(page=1, pageSize=10, name=, begin=null, end=null)
+2026-03-12 17:41:55.697 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-12 17:41:56.104 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6828e699
+2026-03-12 17:41:56.107 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-12 17:41:58.201 [http-nio-8080-exec-4] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:41:58.203 [http-nio-8080-exec-4] INFO  com.example.controller.ClazzController - 根据id:6显示班级信息
+2026-03-12 17:42:02.657 [http-nio-8080-exec-2] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:42:02.707 [http-nio-8080-exec-2] INFO  com.example.controller.ClazzController - 修改班级信息：Clazz(id=6, name=JavaEE就业167期, room=325, beginDate=2024-11-20, endDate=2024-05-10, masterId=36, subject=1, createTime=2024-11-15T11:35:46, updateTime=2024-12-13T14:31:24, masterName=令狐冲, status=null)
+2026-03-12 17:42:02.727 [http-nio-8080-exec-5] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:42:02.727 [http-nio-8080-exec-5] INFO  com.example.controller.ClazzController - 查询请求参数：ClazzQueryParam(page=1, pageSize=10, name=, begin=null, end=null)
+2026-03-12 17:42:04.058 [http-nio-8080-exec-6] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:42:05.442 [http-nio-8080-exec-8] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:42:05.442 [http-nio-8080-exec-7] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:42:05.442 [http-nio-8080-exec-8] INFO  com.example.controller.ReportController - 统计学生学历
+2026-03-12 17:42:05.442 [http-nio-8080-exec-7] INFO  com.example.controller.ReportController - 统计各个班级人数
+2026-03-12 17:42:13.825 [http-nio-8080-exec-10] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:42:13.825 [http-nio-8080-exec-9] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:42:13.827 [http-nio-8080-exec-10] INFO  com.example.controller.ReportController - 统计员工性别
+2026-03-12 17:42:13.827 [http-nio-8080-exec-9] INFO  com.example.controller.ReportController - 统计各个职位的员工人数
+2026-03-12 17:42:33.512 [http-nio-8080-exec-1] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:42:33.512 [http-nio-8080-exec-3] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:42:33.515 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询部门列表
+2026-03-12 17:42:33.526 [http-nio-8080-exec-3] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-12 17:43:22.600 [http-nio-8080-exec-4] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:43:22.623 [http-nio-8080-exec-4] INFO  com.example.controller.EmpController - 新增员工：Emp(id=null, username=最后一个功能, password=null, name=日志信息统计, gender=1, phone=13513561356, job=6, salary=20000, image=, entryDate=2026-03-12, deptId=2, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-03-12 17:43:22.645 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager - Creating new transaction with name [com.example.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2026-03-12 17:43:22.647 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager - Acquired Connection [HikariProxyConnection@1789268619 wrapping com.mysql.cj.jdbc.ConnectionImpl@6828e699] for JDBC transaction
+2026-03-12 17:43:22.651 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager - Switching JDBC Connection [HikariProxyConnection@1789268619 wrapping com.mysql.cj.jdbc.ConnectionImpl@6828e699] to manual commit
+2026-03-12 17:43:22.665 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager - Initiating transaction commit
+2026-03-12 17:43:22.667 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager - Committing JDBC transaction on Connection [HikariProxyConnection@1789268619 wrapping com.mysql.cj.jdbc.ConnectionImpl@6828e699]
+2026-03-12 17:43:22.669 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager - Releasing JDBC Connection [HikariProxyConnection@1789268619 wrapping com.mysql.cj.jdbc.ConnectionImpl@6828e699] after transaction
+2026-03-12 17:43:22.697 [http-nio-8080-exec-2] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:43:22.698 [http-nio-8080-exec-2] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-12 17:43:24.528 [http-nio-8080-exec-5] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:45:10.572 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-12 17:45:10.604 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-12 17:45:10.613 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-12 17:45:10.635 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-12 17:45:14.482 [main] INFO  com.example.ManagementApplication - Starting ManagementApplication using Java 22.0.1 with PID 23440 (E:\java\java0\Management\target\classes\production\Management started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 17:45:14.485 [main] INFO  com.example.ManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 17:45:15.871 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-12 17:45:15.886 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-12 17:45:15.889 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-12 17:45:15.889 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-12 17:45:16.001 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1468 ms
+2026-03-12 17:45:16.451 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 17:45:16.779 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-12 17:45:16.804 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-12 17:45:16.809 [main] INFO  com.example.ManagementApplication - Started ManagementApplication in 3.349 seconds (process running for 4.592)
+2026-03-12 17:45:21.422 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-12 17:45:21.423 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-12 17:45:21.425 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-03-12 17:45:21.824 [http-nio-8080-exec-1] INFO  com.example.interceptor.LoginInterceptor - 令牌合法, 放行
+2026-03-12 17:45:21.947 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-12 17:45:22.153 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7cb8446f
+2026-03-12 17:45:22.157 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-12 21:27:33.250 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-12 21:27:33.279 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-12 21:27:33.289 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-12 21:27:33.294 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-12 21:36:58.795 [main] INFO  com.example.ManagementApplication - Starting ManagementApplication using Java 22.0.1 with PID 29456 (E:\java\java0\Management\target\classes started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 21:36:58.798 [main] INFO  com.example.ManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 21:36:59.966 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-12 21:36:59.979 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-12 21:36:59.981 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-12 21:36:59.981 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-12 21:37:00.092 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1242 ms
+2026-03-12 21:37:00.532 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 21:37:00.825 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-12 21:37:00.850 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-12 21:37:00.854 [main] INFO  com.example.ManagementApplication - Started ManagementApplication in 2.974 seconds (process running for 4.376)
+2026-03-12 21:37:05.052 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-12 21:37:05.074 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-12 22:23:24.785 [main] INFO  com.example.ManagementApplication - Starting ManagementApplication using Java 22.0.1 with PID 29772 (E:\java\java0\Management\target\classes started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 22:23:24.788 [main] INFO  com.example.ManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 22:23:26.011 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-12 22:23:26.025 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-12 22:23:26.027 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-12 22:23:26.027 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-12 22:23:26.128 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1299 ms
+2026-03-12 22:23:26.558 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 22:23:26.871 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-12 22:23:26.896 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-12 22:23:26.901 [main] INFO  com.example.ManagementApplication - Started ManagementApplication in 3.502 seconds (process running for 4.608)
+2026-03-12 22:23:32.893 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-12 22:23:32.894 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-12 22:23:32.894 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-03-12 22:23:32.919 [http-nio-8080-exec-1] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /log/page
+2026-03-12 22:23:33.226 [http-nio-8080-exec-1] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:23:33.307 [http-nio-8080-exec-1] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:24:03.504 [http-nio-8080-exec-4] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /depts
+2026-03-12 22:24:03.504 [http-nio-8080-exec-3] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /emps
+2026-03-12 22:24:03.506 [http-nio-8080-exec-4] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:24:03.506 [http-nio-8080-exec-3] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:24:03.520 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询部门列表
+2026-03-12 22:24:03.550 [http-nio-8080-exec-3] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-12 22:24:03.559 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-12 22:24:03.763 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6a619be1
+2026-03-12 22:24:03.766 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-12 22:24:03.855 [http-nio-8080-exec-4] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:24:03.864 [http-nio-8080-exec-3] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:24:08.749 [http-nio-8080-exec-2] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /depts
+2026-03-12 22:24:08.749 [http-nio-8080-exec-2] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:24:08.749 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询部门列表
+2026-03-12 22:24:08.755 [http-nio-8080-exec-2] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:24:09.876 [http-nio-8080-exec-5] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /emps
+2026-03-12 22:24:09.876 [http-nio-8080-exec-6] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /depts
+2026-03-12 22:24:09.876 [http-nio-8080-exec-6] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:24:09.876 [http-nio-8080-exec-5] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:24:09.876 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询部门列表
+2026-03-12 22:24:09.877 [http-nio-8080-exec-5] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-12 22:24:09.882 [http-nio-8080-exec-6] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:24:09.895 [http-nio-8080-exec-5] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:24:11.459 [http-nio-8080-exec-9] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /clazzs/list
+2026-03-12 22:24:11.459 [http-nio-8080-exec-7] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /students
+2026-03-12 22:24:11.459 [http-nio-8080-exec-9] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:24:11.459 [http-nio-8080-exec-7] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:24:11.462 [http-nio-8080-exec-7] INFO  com.example.controller.StudentController - 查询请求参数：StuQueryParam(page=1, pageSize=10, name=, degree=null, clazzId=null)
+2026-03-12 22:24:11.469 [http-nio-8080-exec-9] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:24:11.480 [http-nio-8080-exec-7] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:24:14.459 [http-nio-8080-exec-8] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /students
+2026-03-12 22:24:14.461 [http-nio-8080-exec-8] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:24:14.462 [http-nio-8080-exec-8] INFO  com.example.controller.StudentController - 查询请求参数：StuQueryParam(page=2, pageSize=10, name=, degree=null, clazzId=null)
+2026-03-12 22:24:14.475 [http-nio-8080-exec-8] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:24:16.033 [http-nio-8080-exec-10] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /students
+2026-03-12 22:24:16.035 [http-nio-8080-exec-10] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:24:16.036 [http-nio-8080-exec-10] INFO  com.example.controller.StudentController - 查询请求参数：StuQueryParam(page=1, pageSize=10, name=, degree=null, clazzId=null)
+2026-03-12 22:24:16.049 [http-nio-8080-exec-10] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:24:17.021 [http-nio-8080-exec-1] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /clazzs
+2026-03-12 22:24:17.021 [http-nio-8080-exec-4] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /emps/list
+2026-03-12 22:24:17.022 [http-nio-8080-exec-4] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:24:17.022 [http-nio-8080-exec-1] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:24:17.022 [http-nio-8080-exec-4] INFO  com.example.controller.EmpController - 查询所有员工
+2026-03-12 22:24:17.024 [http-nio-8080-exec-1] INFO  com.example.controller.ClazzController - 查询请求参数：ClazzQueryParam(page=1, pageSize=10, name=, begin=null, end=null)
+2026-03-12 22:24:17.029 [http-nio-8080-exec-4] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:24:17.043 [http-nio-8080-exec-1] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:24:18.360 [http-nio-8080-exec-3] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /depts
+2026-03-12 22:24:18.361 [http-nio-8080-exec-3] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:24:18.361 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询部门列表
+2026-03-12 22:24:18.366 [http-nio-8080-exec-3] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:24:18.927 [http-nio-8080-exec-6] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /depts
+2026-03-12 22:24:18.927 [http-nio-8080-exec-2] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /emps
+2026-03-12 22:24:18.929 [http-nio-8080-exec-2] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:24:18.929 [http-nio-8080-exec-6] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:24:18.929 [http-nio-8080-exec-6] INFO  com.example.controller.DeptController - 查询部门列表
+2026-03-12 22:24:18.930 [http-nio-8080-exec-2] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-12 22:24:18.934 [http-nio-8080-exec-6] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:24:18.940 [http-nio-8080-exec-2] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:24:23.647 [http-nio-8080-exec-5] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /emps
+2026-03-12 22:24:23.649 [http-nio-8080-exec-5] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:24:23.656 [http-nio-8080-exec-5] INFO  com.example.controller.EmpController - 删除员工：ids=[48]
+2026-03-12 22:24:23.660 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager - Creating new transaction with name [com.example.service.impl.EmpServiceImpl.deleteByIds]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2026-03-12 22:24:23.661 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager - Acquired Connection [HikariProxyConnection@286678725 wrapping com.mysql.cj.jdbc.ConnectionImpl@7a4edf69] for JDBC transaction
+2026-03-12 22:24:23.664 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager - Switching JDBC Connection [HikariProxyConnection@286678725 wrapping com.mysql.cj.jdbc.ConnectionImpl@7a4edf69] to manual commit
+2026-03-12 22:24:23.671 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager - Initiating transaction commit
+2026-03-12 22:24:23.672 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager - Committing JDBC transaction on Connection [HikariProxyConnection@286678725 wrapping com.mysql.cj.jdbc.ConnectionImpl@7a4edf69]
+2026-03-12 22:24:23.674 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager - Releasing JDBC Connection [HikariProxyConnection@286678725 wrapping com.mysql.cj.jdbc.ConnectionImpl@7a4edf69] after transaction
+2026-03-12 22:24:23.682 [http-nio-8080-exec-5] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:24:23.711 [http-nio-8080-exec-9] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /emps
+2026-03-12 22:24:23.711 [http-nio-8080-exec-9] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:24:23.712 [http-nio-8080-exec-9] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-12 22:24:23.720 [http-nio-8080-exec-9] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:24:26.444 [http-nio-8080-exec-7] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /log/page
+2026-03-12 22:24:26.446 [http-nio-8080-exec-7] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:24:26.455 [http-nio-8080-exec-7] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:36:43.445 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-12 22:36:43.479 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-12 22:36:43.492 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-12 22:36:43.518 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-12 22:36:50.982 [main] INFO  com.example.ManagementApplication - Starting ManagementApplication using Java 22.0.1 with PID 27856 (E:\java\java0\Management\target\classes started by XiaoXiaoli in E:\java\java0\Management)
+2026-03-12 22:36:50.985 [main] INFO  com.example.ManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 22:36:52.296 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-12 22:36:52.310 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-12 22:36:52.311 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-12 22:36:52.311 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-12 22:36:52.419 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1389 ms
+2026-03-12 22:36:52.870 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-12 22:36:53.184 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-12 22:36:53.207 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-12 22:36:53.211 [main] INFO  com.example.ManagementApplication - Started ManagementApplication in 3.664 seconds (process running for 4.769)
+2026-03-12 22:36:58.615 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-12 22:36:58.616 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-12 22:36:58.616 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-03-12 22:36:58.636 [http-nio-8080-exec-1] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /log/page
+2026-03-12 22:36:59.011 [http-nio-8080-exec-1] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:36:59.135 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-12 22:36:59.345 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76369d5c
+2026-03-12 22:36:59.348 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-12 22:36:59.529 [http-nio-8080-exec-1] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:37:07.044 [http-nio-8080-exec-3] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /depts
+2026-03-12 22:37:07.047 [http-nio-8080-exec-3] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:37:07.050 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询部门列表
+2026-03-12 22:37:07.063 [http-nio-8080-exec-3] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:37:14.435 [http-nio-8080-exec-2] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /depts
+2026-03-12 22:37:14.435 [http-nio-8080-exec-2] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:37:14.435 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询部门列表
+2026-03-12 22:37:14.441 [http-nio-8080-exec-2] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:37:23.885 [http-nio-8080-exec-4] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /depts
+2026-03-12 22:37:23.886 [http-nio-8080-exec-4] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:37:23.957 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 添加新的部门
+2026-03-12 22:37:23.969 [http-nio-8080-exec-4] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:37:23.977 [http-nio-8080-exec-5] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /depts
+2026-03-12 22:37:23.979 [http-nio-8080-exec-5] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:37:23.980 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询部门列表
+2026-03-12 22:37:23.987 [http-nio-8080-exec-5] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:37:26.591 [http-nio-8080-exec-6] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /log/page
+2026-03-12 22:37:26.593 [http-nio-8080-exec-6] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:37:26.601 [http-nio-8080-exec-6] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:37:37.231 [http-nio-8080-exec-7] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /clazzs
+2026-03-12 22:37:37.233 [http-nio-8080-exec-10] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /emps/list
+2026-03-12 22:37:37.233 [http-nio-8080-exec-7] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:37:37.233 [http-nio-8080-exec-10] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:37:37.236 [http-nio-8080-exec-10] INFO  com.example.controller.EmpController - 查询所有员工
+2026-03-12 22:37:37.244 [http-nio-8080-exec-7] INFO  com.example.controller.ClazzController - 查询请求参数：ClazzQueryParam(page=1, pageSize=10, name=, begin=null, end=null)
+2026-03-12 22:37:37.248 [http-nio-8080-exec-10] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:37:37.288 [http-nio-8080-exec-7] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:37:38.529 [http-nio-8080-exec-9] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /depts
+2026-03-12 22:37:38.531 [http-nio-8080-exec-9] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:37:38.531 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询部门列表
+2026-03-12 22:37:38.536 [http-nio-8080-exec-9] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:37:40.524 [http-nio-8080-exec-8] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /depts
+2026-03-12 22:37:40.525 [http-nio-8080-exec-8] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:37:40.526 [http-nio-8080-exec-8] INFO  com.example.controller.DeptController - 根据id删除部门, id=7
+2026-03-12 22:37:40.531 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager - Creating new transaction with name [com.example.service.impl.DeptServiceImpl.deleteById]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2026-03-12 22:37:40.531 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager - Acquired Connection [HikariProxyConnection@1577524679 wrapping com.mysql.cj.jdbc.ConnectionImpl@76369d5c] for JDBC transaction
+2026-03-12 22:37:40.534 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager - Switching JDBC Connection [HikariProxyConnection@1577524679 wrapping com.mysql.cj.jdbc.ConnectionImpl@76369d5c] to manual commit
+2026-03-12 22:37:40.543 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager - Initiating transaction commit
+2026-03-12 22:37:40.543 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager - Committing JDBC transaction on Connection [HikariProxyConnection@1577524679 wrapping com.mysql.cj.jdbc.ConnectionImpl@76369d5c]
+2026-03-12 22:37:40.546 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager - Releasing JDBC Connection [HikariProxyConnection@1577524679 wrapping com.mysql.cj.jdbc.ConnectionImpl@76369d5c] after transaction
+2026-03-12 22:37:40.546 [http-nio-8080-exec-8] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:37:40.552 [http-nio-8080-exec-1] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /depts
+2026-03-12 22:37:40.552 [http-nio-8080-exec-1] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:37:40.552 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询部门列表
+2026-03-12 22:37:40.558 [http-nio-8080-exec-1] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:37:42.023 [http-nio-8080-exec-3] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /log/page
+2026-03-12 22:37:42.024 [http-nio-8080-exec-3] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:37:42.035 [http-nio-8080-exec-3] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:37:43.834 [http-nio-8080-exec-4] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /depts
+2026-03-12 22:37:43.834 [http-nio-8080-exec-2] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /emps
+2026-03-12 22:37:43.834 [http-nio-8080-exec-4] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:37:43.834 [http-nio-8080-exec-2] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:37:43.835 [http-nio-8080-exec-4] INFO  com.example.controller.DeptController - 查询部门列表
+2026-03-12 22:37:43.837 [http-nio-8080-exec-2] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-12 22:37:43.839 [http-nio-8080-exec-4] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:37:43.848 [http-nio-8080-exec-2] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:37:52.608 [http-nio-8080-exec-5] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /emps
+2026-03-12 22:37:52.609 [http-nio-8080-exec-5] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:37:52.627 [http-nio-8080-exec-5] INFO  com.example.controller.EmpController - 新增员工：Emp(id=null, username=111, password=null, name=111, gender=1, phone=11111111111, job=null, salary=null, image=, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-03-12 22:37:52.630 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager - Creating new transaction with name [com.example.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2026-03-12 22:37:52.632 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager - Acquired Connection [HikariProxyConnection@309787093 wrapping com.mysql.cj.jdbc.ConnectionImpl@76369d5c] for JDBC transaction
+2026-03-12 22:37:52.632 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager - Switching JDBC Connection [HikariProxyConnection@309787093 wrapping com.mysql.cj.jdbc.ConnectionImpl@76369d5c] to manual commit
+2026-03-12 22:37:52.636 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager - Initiating transaction commit
+2026-03-12 22:37:52.636 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager - Committing JDBC transaction on Connection [HikariProxyConnection@309787093 wrapping com.mysql.cj.jdbc.ConnectionImpl@76369d5c]
+2026-03-12 22:37:52.638 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager - Releasing JDBC Connection [HikariProxyConnection@309787093 wrapping com.mysql.cj.jdbc.ConnectionImpl@76369d5c] after transaction
+2026-03-12 22:37:52.646 [http-nio-8080-exec-5] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:37:52.652 [http-nio-8080-exec-6] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /emps
+2026-03-12 22:37:52.653 [http-nio-8080-exec-6] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:37:52.655 [http-nio-8080-exec-6] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-12 22:37:52.665 [http-nio-8080-exec-6] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:37:54.140 [http-nio-8080-exec-10] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /log/page
+2026-03-12 22:37:54.142 [http-nio-8080-exec-10] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:37:54.147 [http-nio-8080-exec-10] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:37:58.314 [http-nio-8080-exec-7] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /emps
+2026-03-12 22:37:58.314 [http-nio-8080-exec-9] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /depts
+2026-03-12 22:37:58.316 [http-nio-8080-exec-9] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:37:58.316 [http-nio-8080-exec-7] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:37:58.316 [http-nio-8080-exec-9] INFO  com.example.controller.DeptController - 查询部门列表
+2026-03-12 22:37:58.316 [http-nio-8080-exec-7] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-12 22:37:58.319 [http-nio-8080-exec-9] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:37:58.324 [http-nio-8080-exec-7] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:38:01.685 [http-nio-8080-exec-8] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /emps
+2026-03-12 22:38:01.685 [http-nio-8080-exec-8] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:38:01.686 [http-nio-8080-exec-8] INFO  com.example.controller.EmpController - 删除员工：ids=[49]
+2026-03-12 22:38:01.688 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager - Creating new transaction with name [com.example.service.impl.EmpServiceImpl.deleteByIds]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2026-03-12 22:38:01.688 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager - Acquired Connection [HikariProxyConnection@1417942175 wrapping com.mysql.cj.jdbc.ConnectionImpl@76369d5c] for JDBC transaction
+2026-03-12 22:38:01.688 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager - Switching JDBC Connection [HikariProxyConnection@1417942175 wrapping com.mysql.cj.jdbc.ConnectionImpl@76369d5c] to manual commit
+2026-03-12 22:38:01.692 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager - Initiating transaction commit
+2026-03-12 22:38:01.692 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager - Committing JDBC transaction on Connection [HikariProxyConnection@1417942175 wrapping com.mysql.cj.jdbc.ConnectionImpl@76369d5c]
+2026-03-12 22:38:01.692 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager - Releasing JDBC Connection [HikariProxyConnection@1417942175 wrapping com.mysql.cj.jdbc.ConnectionImpl@76369d5c] after transaction
+2026-03-12 22:38:01.696 [http-nio-8080-exec-8] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:38:01.702 [http-nio-8080-exec-1] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /emps
+2026-03-12 22:38:01.702 [http-nio-8080-exec-1] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:38:01.703 [http-nio-8080-exec-1] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-03-12 22:38:01.711 [http-nio-8080-exec-1] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:38:02.829 [http-nio-8080-exec-3] INFO  com.example.interceptor.LoginInterceptor - preHandle，请求路径: /log/page
+2026-03-12 22:38:02.829 [http-nio-8080-exec-3] INFO  com.example.interceptor.LoginInterceptor - token解析成功，当前登录用户id=2
+2026-03-12 22:38:02.835 [http-nio-8080-exec-3] INFO  com.example.interceptor.LoginInterceptor - afterCompletion... 已清理当前线程用户id
+2026-03-12 22:38:09.042 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-12 22:38:09.064 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-12 22:38:09.068 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-12 22:38:09.075 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

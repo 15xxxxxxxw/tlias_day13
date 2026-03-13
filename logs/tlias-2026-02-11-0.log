@@ -1,0 +1,195 @@
+2026-02-11 14:21:14.984 [main] INFO  com.example.ManagementApplication - Starting ManagementApplication using Java 22.0.1 with PID 19400 (E:\java\java0\Management\target\classes started by XiaoXiaoli in E:\java\java0\Management)
+2026-02-11 14:21:14.989 [main] INFO  com.example.ManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 14:21:16.633 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-11 14:21:16.660 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-11 14:21:16.662 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-11 14:21:16.663 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-11 14:21:16.870 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1813 ms
+2026-02-11 14:21:17.964 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-11 14:21:17.995 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-11 14:21:17.999 [main] INFO  com.example.ManagementApplication - Started ManagementApplication in 4.208 seconds (process running for 5.608)
+2026-02-11 14:24:19.760 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-11 14:24:19.762 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-11 14:24:19.773 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2026-02-11 14:24:19.836 [http-nio-8080-exec-2] INFO  com.example.controller.DeptController - 查询部门列表
+2026-02-11 14:24:19.869 [http-nio-8080-exec-1] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-02-11 14:24:19.877 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-11 14:24:20.160 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@410046a
+2026-02-11 14:24:20.163 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-11 14:24:25.151 [http-nio-8080-exec-3] INFO  com.example.controller.DeptController - 查询部门列表
+2026-02-11 14:24:26.268 [http-nio-8080-exec-5] INFO  com.example.controller.DeptController - 查询部门列表
+2026-02-11 14:24:26.269 [http-nio-8080-exec-4] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-02-11 14:24:28.378 [http-nio-8080-exec-6] INFO  com.example.controller.EmpController - 显示员工47的信息
+2026-02-11 14:24:32.879 [http-nio-8080-exec-7] INFO  com.example.controller.UploadController - 上传文件：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@192f9368
+2026-02-11 14:24:35.451 [http-nio-8080-exec-8] INFO  com.example.controller.EmpController - 修改员工信息,Emp(id=47, username=12, password=123456, name=12, gender=1, phone=12312341234, job=1, salary=1234, image=https://web-tlias-lxx-demo1.oss-cn-hangzhou.aliyuncs.com/2026/02/571aa083-0eb4-4de6-b075-280040f82f61.png, entryDate=2026-01-12, deptId=1, createTime=2026-01-29T17:12:48, updateTime=2026-01-29T17:12:48, deptName=null, exprList=[EmpExpr(id=3, empId=47, begin=2025-10-20, end=2026-11-19, company=12, job=12)])
+2026-02-11 14:24:35.483 [http-nio-8080-exec-9] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-02-11 14:25:32.132 [http-nio-8080-exec-10] INFO  com.example.controller.EmpController - 显示员工38的信息
+2026-02-11 14:25:35.614 [http-nio-8080-exec-2] INFO  com.example.controller.EmpController - 修改员工信息,Emp(id=38, username=xinzhangsan, password=123456, name=新张三, gender=1, phone=12345678900, job=1, salary=null, image=, entryDate=null, deptId=null, createTime=2026-01-05T21:19:24, updateTime=2026-01-05T21:19:24, deptName=null, exprList=[])
+2026-02-11 14:25:35.642 [http-nio-8080-exec-1] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-02-11 14:25:38.287 [http-nio-8080-exec-3] INFO  com.example.controller.EmpController - 显示员工38的信息
+2026-02-11 14:25:44.541 [http-nio-8080-exec-5] INFO  com.example.controller.EmpController - 修改员工信息,Emp(id=38, username=xinzhangsan, password=123456, name=新张三, gender=1, phone=12345678900, job=1, salary=null, image=, entryDate=null, deptId=2, createTime=2026-01-05T21:19:24, updateTime=2026-02-11T14:25:35, deptName=null, exprList=[])
+2026-02-11 14:25:44.555 [http-nio-8080-exec-4] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-02-11 14:26:01.657 [http-nio-8080-exec-6] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=4, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-02-11 14:26:04.147 [http-nio-8080-exec-7] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=3, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-02-11 14:26:05.534 [http-nio-8080-exec-8] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=2, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-02-11 14:26:06.373 [http-nio-8080-exec-9] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-02-11 14:37:36.496 [http-nio-8080-exec-10] INFO  com.example.controller.EmpController - 删除员工：ids=[38, 47]
+2026-02-11 14:37:36.530 [http-nio-8080-exec-10] DEBUG o.s.jdbc.support.JdbcTransactionManager - Creating new transaction with name [com.example.service.impl.EmpServiceImpl.deleteByIds]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2026-02-11 14:37:36.530 [http-nio-8080-exec-10] DEBUG o.s.jdbc.support.JdbcTransactionManager - Acquired Connection [HikariProxyConnection@1088491707 wrapping com.mysql.cj.jdbc.ConnectionImpl@410046a] for JDBC transaction
+2026-02-11 14:37:36.540 [http-nio-8080-exec-10] DEBUG o.s.jdbc.support.JdbcTransactionManager - Switching JDBC Connection [HikariProxyConnection@1088491707 wrapping com.mysql.cj.jdbc.ConnectionImpl@410046a] to manual commit
+2026-02-11 14:37:36.575 [http-nio-8080-exec-10] DEBUG o.s.jdbc.support.JdbcTransactionManager - Initiating transaction commit
+2026-02-11 14:37:36.576 [http-nio-8080-exec-10] DEBUG o.s.jdbc.support.JdbcTransactionManager - Committing JDBC transaction on Connection [HikariProxyConnection@1088491707 wrapping com.mysql.cj.jdbc.ConnectionImpl@410046a]
+2026-02-11 14:37:36.580 [http-nio-8080-exec-10] DEBUG o.s.jdbc.support.JdbcTransactionManager - Releasing JDBC Connection [HikariProxyConnection@1088491707 wrapping com.mysql.cj.jdbc.ConnectionImpl@410046a] after transaction
+2026-02-11 14:37:36.613 [http-nio-8080-exec-2] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-02-11 15:42:22.038 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-11 15:42:22.072 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-11 15:42:22.089 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-11 15:42:22.100 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-11 15:44:28.299 [main] INFO  com.example.ManagementApplication - Starting ManagementApplication using Java 22.0.1 with PID 13732 (E:\java\java0\Management\target\classes started by XiaoXiaoli in E:\java\java0\Management)
+2026-02-11 15:44:28.302 [main] INFO  com.example.ManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 15:44:29.385 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-11 15:44:29.400 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-11 15:44:29.401 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-11 15:44:29.402 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-11 15:44:29.503 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1156 ms
+2026-02-11 15:44:29.888 [main] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'reportController': Unsatisfied dependency expressed through field 'reportService': No qualifying bean of type 'com.example.service.ReportService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2026-02-11 15:44:29.891 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-11 15:44:29.899 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-02-11 15:44:29.917 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field reportService in com.example.controller.ReportController required a bean of type 'com.example.service.ReportService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.service.ReportService' in your configuration.
+
+2026-02-11 15:45:51.141 [main] INFO  com.example.ManagementApplication - Starting ManagementApplication using Java 22.0.1 with PID 20776 (E:\java\java0\Management\target\classes started by XiaoXiaoli in E:\java\java0\Management)
+2026-02-11 15:45:51.144 [main] INFO  com.example.ManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 15:45:52.240 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-11 15:45:52.259 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-11 15:45:52.262 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-11 15:45:52.262 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-11 15:45:52.402 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1214 ms
+2026-02-11 15:45:52.825 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-02-11 15:45:53.150 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-11 15:45:53.173 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-11 15:45:53.178 [main] INFO  com.example.ManagementApplication - Started ManagementApplication in 3.099 seconds (process running for 4.405)
+2026-02-11 15:46:01.934 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-11 15:46:01.935 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-11 15:46:01.939 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2026-02-11 15:46:01.990 [http-nio-8080-exec-1] INFO  com.example.controller.DeptController - 查询部门列表
+2026-02-11 15:46:02.014 [http-nio-8080-exec-2] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-02-11 15:46:02.023 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-11 15:46:02.280 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@156a47e1
+2026-02-11 15:46:02.280 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-11 15:46:03.833 [http-nio-8080-exec-3] INFO  com.example.controller.ReportController - 统计各个职位的员工人数
+2026-02-11 15:46:07.838 [http-nio-8080-exec-10] INFO  com.example.controller.ReportController - 统计各个职位的员工人数
+2026-02-11 18:54:05.396 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-11 18:54:05.420 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-11 18:54:05.428 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-11 18:54:05.432 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-11 19:01:47.971 [main] INFO  com.example.ManagementApplication - Starting ManagementApplication using Java 22.0.1 with PID 20756 (E:\java\java0\Management\target\classes started by XiaoXiaoli in E:\java\java0\Management)
+2026-02-11 19:01:47.974 [main] INFO  com.example.ManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 19:01:49.285 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-11 19:01:49.301 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-11 19:01:49.303 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-11 19:01:49.303 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-11 19:01:49.420 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1388 ms
+2026-02-11 19:01:49.856 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-02-11 19:01:50.202 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-11 19:01:50.226 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-11 19:01:50.231 [main] INFO  com.example.ManagementApplication - Started ManagementApplication in 3.542 seconds (process running for 4.839)
+2026-02-11 19:01:55.119 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-11 19:01:55.119 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-11 19:01:55.119 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-02-11 19:01:55.173 [http-nio-8080-exec-1] INFO  com.example.controller.EmpController - 查询请求参数： EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-02-11 19:01:55.263 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-11 19:01:55.456 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@622d4986
+2026-02-11 19:01:55.458 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-11 19:01:57.806 [http-nio-8080-exec-2] INFO  com.example.controller.ReportController - 统计各个职位的员工人数
+2026-02-11 19:01:57.806 [http-nio-8080-exec-3] INFO  com.example.controller.ReportController - 统计员工性别
+2026-02-11 19:02:10.625 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-11 19:02:10.652 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-11 19:02:10.659 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-11 19:02:10.672 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-11 19:02:15.028 [main] INFO  com.example.ManagementApplication - Starting ManagementApplication using Java 22.0.1 with PID 16052 (E:\java\java0\Management\target\classes started by XiaoXiaoli in E:\java\java0\Management)
+2026-02-11 19:02:15.030 [main] INFO  com.example.ManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 19:02:16.091 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-11 19:02:16.105 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-11 19:02:16.107 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-11 19:02:16.107 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-11 19:02:16.210 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1135 ms
+2026-02-11 19:02:16.578 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-02-11 19:02:16.893 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-11 19:02:16.916 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-11 19:02:16.921 [main] INFO  com.example.ManagementApplication - Started ManagementApplication in 3.257 seconds (process running for 4.366)
+2026-02-11 19:02:20.257 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-11 19:02:20.257 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-11 19:02:20.258 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-02-11 19:02:20.293 [http-nio-8080-exec-2] INFO  com.example.controller.ReportController - 统计各个职位的员工人数
+2026-02-11 19:02:20.293 [http-nio-8080-exec-1] INFO  com.example.controller.ReportController - 统计员工性别
+2026-02-11 19:02:20.319 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-11 19:02:20.519 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34ce6d17
+2026-02-11 19:02:20.521 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-11 19:03:28.924 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-11 19:03:28.946 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-11 19:03:28.950 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-11 19:03:28.960 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-11 19:03:34.508 [main] INFO  com.example.ManagementApplication - Starting ManagementApplication using Java 22.0.1 with PID 19252 (E:\java\java0\Management\target\classes started by XiaoXiaoli in E:\java\java0\Management)
+2026-02-11 19:03:34.511 [main] INFO  com.example.ManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 19:03:35.590 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-11 19:03:35.606 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-11 19:03:35.608 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-11 19:03:35.609 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-11 19:03:35.709 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1148 ms
+2026-02-11 19:03:36.079 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-02-11 19:03:36.386 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-11 19:03:36.411 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-11 19:03:36.415 [main] INFO  com.example.ManagementApplication - Started ManagementApplication in 3.368 seconds (process running for 4.693)
+2026-02-11 19:03:43.501 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-11 19:03:43.502 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-11 19:03:43.503 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-02-11 19:03:43.543 [http-nio-8080-exec-1] INFO  com.example.controller.ReportController - 统计各个职位的员工人数
+2026-02-11 19:03:43.543 [http-nio-8080-exec-2] INFO  com.example.controller.ReportController - 统计员工性别
+2026-02-11 19:03:43.569 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-11 19:03:43.740 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1efddc03
+2026-02-11 19:03:43.743 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-11 19:04:47.741 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-11 19:04:47.764 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-11 19:04:47.769 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-11 19:04:47.779 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-11 19:04:53.077 [main] INFO  com.example.ManagementApplication - Starting ManagementApplication using Java 22.0.1 with PID 25452 (E:\java\java0\Management\target\classes started by XiaoXiaoli in E:\java\java0\Management)
+2026-02-11 19:04:53.081 [main] INFO  com.example.ManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 19:04:54.286 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-11 19:04:54.300 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-11 19:04:54.302 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-11 19:04:54.303 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-11 19:04:54.405 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1263 ms
+2026-02-11 19:04:54.815 [main] INFO  o.s.b.w.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-02-11 19:04:55.133 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-11 19:04:55.168 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-11 19:04:55.174 [main] INFO  com.example.ManagementApplication - Started ManagementApplication in 3.005 seconds (process running for 4.422)
+2026-02-11 19:04:57.956 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-11 19:04:57.957 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-11 19:04:57.958 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-02-11 19:04:57.999 [http-nio-8080-exec-2] INFO  com.example.controller.ReportController - 统计员工性别
+2026-02-11 19:04:57.999 [http-nio-8080-exec-1] INFO  com.example.controller.ReportController - 统计各个职位的员工人数
+2026-02-11 19:04:58.026 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-11 19:04:58.240 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a538711
+2026-02-11 19:04:58.242 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-11 19:05:27.414 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-11 19:05:27.437 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-11 19:05:27.441 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-11 19:05:27.450 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

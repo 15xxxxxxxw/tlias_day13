@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.mapper.StudentMapper">
+<!--展示列表-->
+    <select id="list" resultType="com.example.pojo.Student">
+        select
+        s.id,
+        s.name,
+        s.no,
+        s.gender,
+        s.phone,
+        s.degree,
+        s.id_card as idCard,
+        s.is_college as isCollege,
+        s.address,
+        s.graduation_date as graduationDate,
+        s.violation_count as violationCount,
+        s.violation_score as violationScore,
+        s.clazz_id as clazzId,
+        c.name as clazzName,
+        s.create_time as createTime,
+        s.update_time as updateTime
+        from student s
+        left join clazz c on s.clazz_id = c.id
+
+        <where>
+            <if test="name != null and name != ''">
+                and s.name like concat('%', #{name}, '%')
+            </if>
+            <if test="degree != null">
+                and s.degree = #{degree}
+            </if>
+            <if test="clazzId != null">
+                and s.clazz_id = #{clazzId}
+            </if>
+        </where>
+
+        order by s.update_time desc
+    </select>
+
+<!--显示某个学生的具体信息-->
+    <select id="getStuById" resultType="com.example.pojo.Student">
+        select
+           s.id,
+           s.name,
+           s.no,
+           s.phone,
+           s.gender,
+           s.degree,
+           s.id_card,
+           s.is_college,
+           s.address,
+           s.graduation_date,
+           s.clazz_id,
+           c.name as clazzName,
+           s.violation_count,
+           s.violation_score,
+           s.create_time,
+           s.update_time
+        from student s left join clazz c on s.clazz_id = c.id
+        where s.id = #{id}
+    </select>
+
+<!--修改学生信息-->
+    <update id="modifyStu" >
+        update student
+        <set>
+            <if test="no != null and no != ''">no = #{no},</if>
+            <if test="name != null and name != ''">name = #{name},</if>
+            <if test="gender != null">gender = #{gender},</if>
+            <if test="phone != null and phone != ''">phone = #{phone},</if>
+            <if test="degree != null">degree = #{degree},</if>
+            <if test="isCollege != null">is_college = #{isCollege},</if>
+            <if test="idCard != null and idCard != ''">id_card = #{idCard},</if>
+            <if test="address != null and address != ''">address = #{address},</if>
+            <if test="graduationDate != null and graduationDate != ''">graduation_date = #{graduationDate },</if>
+            <if test="violationCount != null">violation_count = #{violationCount},</if>
+            <if test="violationScore != null">violation_score = #{violationScore},</if>
+            <if test="clazzId != null">clazz_id = #{clazzId},</if>
+        </set>
+        where id = #{id}
+    </update>
+
+<!--批量删除学生-->
+    <delete id="deleteStu" >
+        delete from student where id in
+            <foreach collection="ids" item="id" separator="," open="(" close=")">
+                #{id}
+            </foreach>
+    </delete>
+
+<!--违纪处理-->
+    <update id="violStu" >
+        update student set
+            violation_count = violation_count + 1,
+            violation_score = violation_score + #{score},
+            update_time = now()
+        where id = #{id}
+    </update>
+
+<!--统计学历情况-->
+    <select id="getstudentDegreeData" resultType="java.util.Map">
+        select
+            case degree
+                WHEN 1 THEN '初中'
+                WHEN 2 THEN '高中'
+                WHEN 3 THEN '大专'
+                WHEN 4 THEN '本科'
+                WHEN 5 THEN '硕士'
+                WHEN 6 THEN '博士'
+            END
+            AS name,
+            COUNT(*) AS value
+        from student
+        group by degree
+        order by degree
+    </select>
+
+<!--统计各个班人数-->
+    <select id="clazzStudentCount" resultType="com.example.pojo.ClazzCountOption">
+        select
+            c.name as clazzName,
+            count(s.id) as data
+        from clazz c
+                 left join student s on c.id = s.clazz_id
+        group by c.id, c.name
+        order by c.id
+    </select>
+
+</mapper>
